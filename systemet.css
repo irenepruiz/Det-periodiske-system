@@ -1,0 +1,90 @@
+body{
+  background-color: pink;
+}
+nav{
+  background-color: orange; /* Velger en bakgrunnsfarge på navigasjonsbaren */
+  display: flex; /* Gjør navigasjonsbaren til en flex box */
+  border-radius: 7px;
+
+
+
+
+}
+nav a{ /* Velger alle a-elementer som ligger inne i nav */
+  color: white; /* Velger skriftfarge på lenkene */
+  text-decoration: none; /* Fjerner understrek på lenkene */
+  padding: 25px; /* Lager 25px med "luft" rundt lenkene */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+nav .active{ /* Velger klassen active inne i nav */
+  background-color: #d68400; /* Setter bakgrunnsfarge på elementet som er active */
+}
+nav a:hover:not(.active){ /* Velger a-elementer som musen er over inne i nav, men ikke elementer som har klassen active */
+  background-color: #ffc870; /* Setter bakgrunnsfarge */
+}
+
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-gap: 5px;
+  padding-top: 10px;
+}
+.systemet2{
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+
+  grid-gap: 5px;
+  padding-top: 20px;
+}
+
+.span-16{
+  grid-column: span 16;
+}
+
+.span-10{
+  grid-column: span 10;
+}
+
+.usynlig{
+  opacity: 0;
+}
+
+.grunnstoff{
+  background-color: orange;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: orange;
+}
+.grunnstoff2{
+  background-color: orange;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: orange;
+
+}
+.grunnstoff:hover{
+  background-color: #ffc870;
+}
+.grunnstoff2:hover{
+  background-color: #ffc870;
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 24px;
+}
+.lilla{
+  background-color: #bc4fff;
+}
+.lilla:hover{
+  background-color: #d99cff;
+}
+.peach{
+  background-color:#ffa16b;
+}
+.peach:hover{
+  background-color: #ffc99c;
+}
